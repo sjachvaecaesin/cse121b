@@ -1,4 +1,35 @@
-let gradesList = [];
+let schoolList = [];
+let studentList = [];
+let formatList = [];
+
+const getStudents = (school) => {
+    school.forEach(currentStudent => {
+        studentList.push(currentStudent);
+    });
+    console.log(studentList);
+    formatStudents(studentList);
+}
+
+const getSchool = async () => {
+    const response = (await fetch("https://sjachvaecaesin.github.io/cse121b/csvjson.json"));
+    if (response.ok) {
+        const data = await response.json();
+        schoolList.push(data);
+    }
+    schoolList.forEach(students => {
+        getStudents(students);
+    });
+}
+
+function formatStudents(students) {
+    students.forEach(currentStudent => {
+        let student = {
+            name: currentStudent.StudentName,
+            grade: currentStudent.CourseAverage
+        };
+        console.log(student);
+    });
+}
 
 function formula(grades) {
     let a = 0;
@@ -17,3 +48,5 @@ function formula(grades) {
     let score = (a - 1) + b + c;
     return score;
 }
+
+getSchool();
