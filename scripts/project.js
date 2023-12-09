@@ -1,17 +1,15 @@
 let schoolList = [];
 let studentList = [];
-let formatList = [];
 
 const getStudents = (school) => {
     school.forEach(currentStudent => {
         studentList.push(currentStudent);
     });
     console.log(studentList);
-    formatStudents(studentList);
 }
 
 const getSchool = async () => {
-    const response = (await fetch("https://sjachvaecaesin.github.io/cse121b/csvjson.json"));
+    const response = (await fetch("https://sjachvaecaesin.github.io/cse121b/students.json"));
     if (response.ok) {
         const data = await response.json();
         schoolList.push(data);
@@ -21,15 +19,24 @@ const getSchool = async () => {
     });
 }
 
+/*  code possibly implemented in the future
 function formatStudents(students) {
     students.forEach(currentStudent => {
-        let student = {
-            name: currentStudent.StudentName,
-            grade: currentStudent.CourseAverage
-        };
-        console.log(student);
+        if (student.name.localeCompare(currentStudent.StudentName) == 0) {
+            student.grades.push(currentStudent.CourseAverage);
+        }
+        else {
+            let x = student.grades.length;
+            if (x != 0) {
+                formatList.push(student);
+            }
+            student = new Student("", student.grades);
+            student.name = currentStudent.StudentName;
+            student.grades.push(currentStudent.CourseAverage);
+        }
     });
-}
+    console.log(formatList);
+} */
 
 function formula(grades) {
     let a = 0;
