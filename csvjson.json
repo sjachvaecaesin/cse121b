@@ -1,0 +1,202 @@
+[
+  {
+    "Student Name": "Brown, Charlie",
+    "Course Description": "Marketing & Entrepreneurship S",
+    "Course Average": 63
+  },
+  {
+    "Student Name": "Brown, Charlie",
+    "Course Description": "AP English Lit+",
+    "Course Average": 58.69
+  },
+  {
+    "Student Name": "Brown, Charlie",
+    "Course Description": "Financial Algebra A",
+    "Course Average": 67.44
+  },
+  {
+    "Student Name": "Brown, Charlie",
+    "Course Description": "Physics in the Universe",
+    "Course Average": 61.55
+  },
+  {
+    "Student Name": "Potter, Harry",
+    "Course Description": "AP Statistics+",
+    "Course Average": 62.75
+  },
+  {
+    "Student Name": "Potter, Harry",
+    "Course Description": "Precalculus",
+    "Course Average": 62
+  },
+  {
+    "Student Name": "Potter, Harry",
+    "Course Description": "AP Physics Part 1+",
+    "Course Average": 66.1
+  },
+  {
+    "Student Name": "Potter, Harry",
+    "Course Description": "Financial Algebra A",
+    "Course Average": 61.68
+  },
+  {
+    "Student Name": "Potter, Harry",
+    "Course Description": "Language Arts 12 (Sem 2)",
+    "Course Average": 49.63
+  },
+  {
+    "Student Name": "Potter, Harry",
+    "Course Description": "Conditioning",
+    "Course Average": 64.29
+  },
+  {
+    "Student Name": "Weasley, Ron",
+    "Course Description": "Physics in the Universe",
+    "Course Average": 23
+  },
+  {
+    "Student Name": "Weasley, Ron",
+    "Course Description": "Language Arts 12",
+    "Course Average": 65.715
+  },
+  {
+    "Student Name": "Weasley, Ron",
+    "Course Description": "Geometry",
+    "Course Average": 68.25
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "Geometry Lab",
+    "Course Average": 68.25
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "Physics in the Universe",
+    "Course Average": 65.85
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "Precalculus",
+    "Course Average": 65
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "Chemistry in the Community",
+    "Course Average": 67
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "Coding I",
+    "Course Average": 17.5
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "AP World History: Modern+",
+    "Course Average": 66.51
+  },
+  {
+    "Student Name": "VanPelt, Linus",
+    "Course Description": "Financial Algebra A",
+    "Course Average": 62.63
+  },
+  {
+    "Student Name": "Malfoy, Draco",
+    "Course Description": "Financial Algebra A",
+    "Course Average": 51.88
+  },
+  {
+    "Student Name": "Malfoy, Draco",
+    "Course Description": "Marketing & Entrepreneurship S",
+    "Course Average": 0
+  },
+  {
+    "Student Name": "Malfoy, Draco",
+    "Course Description": "AP Physics Part 1+",
+    "Course Average": 44.1
+  },
+  {
+    "Student Name": "Malfoy, Draco",
+    "Course Description": "Algebra II",
+    "Course Average": 56
+  },
+  {
+    "Student Name": "Malfoy, Draco",
+    "Course Description": "Math Lab III",
+    "Course Average": 56
+  },
+  {
+    "Student Name": "Baggins, Frodo",
+    "Course Description": "Management Foundations S",
+    "Course Average": 54
+  },
+  {
+    "Student Name": "Baggins, Frodo",
+    "Course Description": "Financial Algebra A",
+    "Course Average": 66.2
+  },
+  {
+    "Student Name": "Baggins, Frodo",
+    "Course Description": "Physics in the Universe",
+    "Course Average": 63.89
+  },
+  {
+    "Student Name": "Gamgee, Samwise",
+    "Course Description": "Management Foundations S",
+    "Course Average": 53
+  },
+  {
+    "Student Name": "Gamgee, Samwise",
+    "Course Description": "Psychology",
+    "Course Average": 51.52
+  },
+  {
+    "Student Name": "Gamgee, Samwise",
+    "Course Description": "AP English Lit+",
+    "Course Average": 66.84
+  },
+  {
+    "Student Name": "Gamgee, Samwise",
+    "Course Description": "United States History 11",
+    "Course Average": 61.2
+  },
+  {
+    "Student Name": "Gamgee, Samwise",
+    "Course Description": "AP English Lit+",
+    "Course Average": 68.36
+  },
+  {
+    "Student Name": "Gamgee, Samwise",
+    "Course Description": "AP US Govt-Politics+",
+    "Course Average": 35.06
+  },
+  {
+    "Student Name": "Took, Peregrin",
+    "Course Description": "Marketing & Entrepreneurship S",
+    "Course Average": 66
+  },
+  {
+    "Student Name": "Took, Peregrin",
+    "Course Description": "Spanish III",
+    "Course Average": 66.5
+  },
+  {
+    "Student Name": "Took, Peregrin",
+    "Course Description": "Financial Algebra A",
+    "Course Average": 56.5
+  },
+  {
+    "Student Name": "Took, Peregrin",
+    "Course Description": "Language Arts 11",
+    "Course Average": 44.67
+  },
+  {
+    "Student Name": "Took, Peregrin",
+    "Course Description": "Chemistry in the Community",
+    "Course Average": 67
+  },
+  {
+    "Student Name": "Took, Peregrin",
+    "Course Description": "United States Government 12",
+    "Course Average": 63.48
+  }
+]
