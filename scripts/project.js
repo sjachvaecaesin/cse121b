@@ -1,7 +1,12 @@
 let schoolList = [];
 let studentList = [];
+let equation1 = "A student is given one free grade.";
+let equation2 = "After that the student gets one point for each grade.";
+let equation3 = "The student gets another point for each failing grade.";
+let equation4 = "The student gets another point for each grade under 50%.";
 const studentElement = document.getElementById("students");
 const ratingElement = document.getElementById("ratings");
+const formulaElement = document.getElementById("formula");
 
 const getStudents = (school) => {
     school.forEach(currentStudent => {
@@ -50,6 +55,7 @@ const displayRatings = (students) => {
         article.appendChild(grades);
         ratingElement.appendChild(article);
     });
+    formulaElement.innerHTML = `<h3>${equation1}<br><br>${equation2}<br><br>${equation3}<br><br>${equation4}</h3>`;
 }
 
 function formula(grades) {
