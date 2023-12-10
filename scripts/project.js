@@ -1,11 +1,12 @@
 let schoolList = [];
 let studentList = [];
+const studentElement = document.getElementById("students");
 
 const getStudents = (school) => {
     school.forEach(currentStudent => {
         studentList.push(currentStudent);
     });
-    console.log(studentList);
+    displayStudents(studentList);
 }
 
 const getSchool = async () => {
@@ -19,24 +20,21 @@ const getSchool = async () => {
     });
 }
 
-/*  code possibly implemented in the future
-function formatStudents(students) {
-    students.forEach(currentStudent => {
-        if (student.name.localeCompare(currentStudent.StudentName) == 0) {
-            student.grades.push(currentStudent.CourseAverage);
-        }
-        else {
-            let x = student.grades.length;
-            if (x != 0) {
-                formatList.push(student);
-            }
-            student = new Student("", student.grades);
-            student.name = currentStudent.StudentName;
-            student.grades.push(currentStudent.CourseAverage);
-        }
+const displayStudents = (students) => {
+    students.forEach(student => {
+        let article = document.createElement("article");
+        let name = document.createElement("h3");
+        name.innerHTML = student.StudentName;
+
+        let grades = document.createElement("h4");
+        grades.innerHTML = student.CourseAverage;
+
+        article.appendChild(name);
+        article.appendChild(grades);
+        studentElement.appendChild(article);
+        console.log(studentElement);
     });
-    console.log(formatList);
-} */
+}
 
 function formula(grades) {
     let a = 0;
@@ -57,3 +55,22 @@ function formula(grades) {
 }
 
 getSchool();
+
+/*  code possibly implemented in the future
+function formatStudents(students) {
+    students.forEach(currentStudent => {
+        if (student.name.localeCompare(currentStudent.StudentName) == 0) {
+            student.grades.push(currentStudent.CourseAverage);
+        }
+        else {
+            let x = student.grades.length;
+            if (x != 0) {
+                formatList.push(student);
+            }
+            student = new Student("", student.grades);
+            student.name = currentStudent.StudentName;
+            student.grades.push(currentStudent.CourseAverage);
+        }
+    });
+    console.log(formatList);
+} */
