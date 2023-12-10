@@ -2,81 +2,81 @@
   {
     "StudentName": "Brown, Charlie",
     "CourseAverage": [
-       63,
-       58,
-       67,
-       61
+      63,
+      58,
+      67,
+      61
     ]
   },
   {
     "StudentName": "Potter, Harry",
     "CourseAverage": [
-       62,
-       62,
-       66,
-       61,
-       49,
-       64
+      62,
+      62,
+      66,
+      61,
+      49,
+      64
     ]
   },
   {
     "StudentName": "Weasley, Ron",
     "CourseAverage": [
-       23,
-       65,
-       68
+      23,
+      65,
+      68
     ]
   },
   {
     "StudentName": "VanPelt, Linus",
     "CourseAverage": [
-       68,
-       65,
-       65,
-       67,
-       17,
-       66,
-       62
+      68,
+      65,
+      65,
+      67,
+      17,
+      66,
+      62
     ]
   },
   {
     "StudentName": "Malfoy, Draco",
     "CourseAverage": [
-       51,
-       0,
-       44,
-       56,
-       56
+      51,
+      0,
+      44,
+      56,
+      56
     ]
   },
   {
     "StudentName": "Baggins, Frodo",
     "CourseAverage": [
-       54,
-       66,
-       63
+      54,
+      66,
+      63
     ]
   },
   {
     "StudentName": "Gamgee, Samwise",
     "CourseAverage": [
-       53,
-       51,
-       66,
-       61,
-       68,
-       35
+      53,
+      51,
+      66,
+      61,
+      68,
+      35
     ]
   },
   {
     "StudentName": "Took, Peregrin",
     "CourseAverage": [
-       66,
-       66,
-       56,
-       44,
-       67,
-       63
+      66,
+      66,
+      56,
+      44,
+      67,
+      63
     ]
   }
 ]
