@@ -1,12 +1,14 @@
 let schoolList = [];
 let studentList = [];
 const studentElement = document.getElementById("students");
+const ratingElement = document.getElementById("ratings");
 
 const getStudents = (school) => {
     school.forEach(currentStudent => {
         studentList.push(currentStudent);
     });
     displayStudents(studentList);
+    displayRatings(studentList);
 }
 
 const getSchool = async () => {
@@ -32,7 +34,21 @@ const displayStudents = (students) => {
         article.appendChild(name);
         article.appendChild(grades);
         studentElement.appendChild(article);
-        console.log(studentElement);
+    });
+}
+
+const displayRatings = (students) => {
+    students.forEach(student => {
+        let article = document.createElement("article");
+        let name = document.createElement("h1");
+        name.innerHTML = student.StudentName;
+
+        let grades = document.createElement("h2");
+        grades.innerHTML = formula(student.CourseAverage);
+
+        article.appendChild(name);
+        article.appendChild(grades);
+        ratingElement.appendChild(article);
     });
 }
 
@@ -56,7 +72,7 @@ function formula(grades) {
 
 getSchool();
 
-/*  code possibly implemented in the future
+/*  code possibly implemented in the future for more variable resource readings
 function formatStudents(students) {
     students.forEach(currentStudent => {
         if (student.name.localeCompare(currentStudent.StudentName) == 0) {
